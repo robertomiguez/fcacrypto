@@ -11,13 +11,13 @@ import moment from 'moment'
 export default createStore({
   state: {
     purchaseAmount: 10,
-    cryptoCoin: { id: 'bitcoin', symbol: 'BTC', name: 'Bitcoin' },
+    cryptoCoin: {},
     cryptoCoins: [],
-    fiatCoin: { id: 'USD', symbol: '$', name: 'Dollar' },
+    fiatCoin: {},
     fiatCoins: [],
-    periodicity: { id: 1, name: 'daily' },
+    periodicity: {},
     periodicities: [],
-    starting: { id: 30, name: 'one month ago' },
+    starting: {},
     startings: [],
     prices: [],
     transactions: [],

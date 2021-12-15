@@ -7,29 +7,19 @@
           {{ provider }}
         </router-link>
       </div>
-      <div class='more'><ViewMore :to='viewMore'/></div>
     </div>
 </template>
 
 <script>
 import { computed } from 'vue'
-
-import ViewMore from '../components/ViewMore.vue'
 import Disclaimer from '../components/Disclaimer.vue'
 
 export default {
   name: 'Footer',
   components: {
-    ViewMore,
     Disclaimer
   },
-  props: {
-    viewMore: {
-      type: String,
-      required: true
-    }
-  },
-  setup (props) {
+  setup () {
     const provider = computed(() => process.env.VUE_APP_PROVIDER)
     return { provider }
   }

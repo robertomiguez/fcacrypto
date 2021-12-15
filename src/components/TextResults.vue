@@ -8,7 +8,6 @@
   <div class="title">{{ $t("quantity") }} {{ $t("of") }} <CryptoCoinName/> </div>
   <div class="result"><QuantityCrypto/>  <CryptoCoinSymbol/></div>
   <hr>
-  <ViewMore to='report'/>
 </template>
 
 <script>
@@ -20,7 +19,6 @@ import QuantityCrypto from './QuantityCrypto.vue'
 import ProfitPercent from './ProfitPercent.vue'
 import FiatCoinSymbol from './FiatCoinSymbol.vue'
 import ProfitStatus from './ProfitStatus.vue'
-import ViewMore from './ViewMore.vue'
 import CryptoCoinSymbol from './CryptoCoinSymbol.vue'
 export default {
   name: 'Results',
@@ -33,7 +31,6 @@ export default {
     ProfitPercent,
     FiatCoinSymbol,
     ProfitStatus,
-    ViewMore,
     CryptoCoinSymbol
   }
 }

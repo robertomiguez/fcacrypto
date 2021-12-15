@@ -1,7 +1,7 @@
 <template>
   <report-header/>
   <report-body/>
-  <Footer viewMore='dashboard'/>
+  <Footer/>
 </template>
 
 <script>

@@ -27,7 +27,9 @@
     "price"       : "price",
     "invested"    : "invested",
     "qtdacc"      : "Qty Acc",
-    "now"         : "Now"
+    "now"         : "Now",
+    "fcadescription"  : "Fiat cost averaging is the practice of investing a fixed Dollar/Euro/Pound amount on a regular basis, regardless of the price.", 
+    "starthere"   : "Start Here!"
   },
   "pt": {
     "home"        : "Inicio",
@@ -57,6 +59,8 @@
     "price"       : "preço",
     "invested"    : "investido",
     "qtdacc"      : "Qtd Acu",
-    "now"         : "Agora"
+    "now"         : "Agora",
+    "fcadescription"  : "O custo médio em Fiat é a prática de investir um valor fixo em Dólar/Euro/Real regularmente, independentemente do preço.", 
+    "starthere"   : "Comece Aqui!"
   }
 }

@@ -2,13 +2,13 @@
   <div class='text-primary sentence'>
     <span>
       {{ $t("sentence1") }}
-      <span class="lowercasex">
+      <span>
         <FiatCoinSymbol/><PurchaseAmount/> {{ $t("of") }} <span class="capitalize"><CryptoCoinName/></span> <PeriodicityName/> <StartingName/>,
       </span>
     </span>
     <div>
       {{ $t("sentence3") }}
-      <span class="lowercases">
+      <span>
         <FiatCoinSymbol/><TotalInvested/> {{ $t("sentence4") }} <FiatCoinSymbol/><TotalValue/>* (<FiatCoinSymbol/><Profit/>* {{ $t("sentence5") }} <ProfitStatus/>),
         {{ $t("sentence6") }} <QuantityCrypto/> <CryptoCoinSymbol/>.
       </span>
@@ -55,13 +55,13 @@ export default {
   text-transform: capitalize;
 }
 .sentence {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Signika', sans-serif;
-  padding: 2em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
 }
 @media screen and (max-width: 600px) {
   .sentence {
-    font-size: 1.4em;
+    font-size: 1.1em;
     padding: 1em 0.4em;
   }
 }
